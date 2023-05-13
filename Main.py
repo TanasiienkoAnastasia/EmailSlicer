@@ -1,5 +1,5 @@
 def main():
-    print(" Welcome to email slicer!")
+    print("Welcome to email slicer!")
     print("")
 
     email_input = input("Input your email address: ")
@@ -11,4 +11,5 @@ def main():
     print("Domain: ", domain)
     print("Extension: ", extension)
 
-main()
+while True:
+    main()
